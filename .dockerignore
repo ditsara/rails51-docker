@@ -25,3 +25,8 @@
 /public/packs
 /public/packs-test
 /node_modules
+
+Dockerfile
+.docker/Dockerfile-prd
+docker-compose.yml
+.docker/docker-compose.production.yml
