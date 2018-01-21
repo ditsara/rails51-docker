@@ -1,0 +1,12 @@
+version: '2'
+services:
+  web:
+    image: rails5-test:latest
+    build:
+      context: ..
+      dockerfile: .docker/Dockerfile-prd
+    environment:
+      - SECRET_KEY_BASE=f9d1b0d8-d76a-442f-9894-8ddedff06ce9
+      - RAILS_SERVE_STATIC_FILES=t
+    ports:
+      - "3000:3000"
