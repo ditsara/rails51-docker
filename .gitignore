@@ -17,6 +17,8 @@
 /tmp/*
 !/log/.keep
 !/tmp/.keep
+*.swo
+*.swp
 
 /node_modules
 /yarn-error.log
